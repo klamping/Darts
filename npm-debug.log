@@ -1,0 +1,19 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jitsu', '-g' ]
+info using npm@1.1.16
+info using node@v0.6.15
+verbose config file /Users/klamping/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose cache add [ 'jitsu', null ]
+silly cache add: name, spec, args [ undefined, 'jitsu', [ 'jitsu', null ] ]
+verbose parsed url { pathname: 'jitsu', path: 'jitsu', href: 'jitsu' }
+verbose addNamed [ 'jitsu', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jitsu', '', false ]
+verbose raw, before any munging jitsu
+verbose url resolving [ 'https://registry.npmjs.org/', './jitsu' ]
+verbose url resolved https://registry.npmjs.org/jitsu
+verbose etag "FTA51SJAZN8P1YWT0K87YKUU"
+http GET https://registry.npmjs.org/jitsu
+http 304 https://registry.npmjs.org/jitsu
