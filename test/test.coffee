@@ -1,4 +1,3 @@
-
 ###describe 'Kit', ->
   describe 'getScore', ->
   describe 'getHits', ->
