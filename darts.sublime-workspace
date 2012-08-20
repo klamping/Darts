@@ -1,0 +1,943 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"argu",
+				"arguments"
+			],
+			[
+				"x",
+				"xhr"
+			],
+			[
+				"mic",
+				"microAjax"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"cof",
+				"coffee-script"
+			],
+			[
+				"reques",
+				"requestFile"
+			],
+			[
+				"ac",
+				"acceptsHTML"
+			],
+			[
+				"get",
+				"getFullYear"
+			],
+			[
+				"line",
+				"lineNumbers"
+			],
+			[
+				"r",
+				"rotate"
+			],
+			[
+				"webki",
+				"webkit-transform"
+			],
+			[
+				"ova",
+				"oval-thought-border"
+			],
+			[
+				"html",
+				"htmlembedded"
+			],
+			[
+				"callba",
+				"callback-highlight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Round.coffee",
+			"settings":
+			{
+				"buffer_size": 820,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Kit.coffee",
+			"settings":
+			{
+				"buffer_size": 277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/kit.coffee",
+			"settings":
+			{
+				"buffer_size": 853,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/round.coffee",
+			"settings":
+			{
+				"buffer_size": 861,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/CoffeeScript/CoffeeScript.sublime-build",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 289.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/docs/index.html",
+		"/Users/udd1641/Sites/PBM-Darts/PBM-Darts/public/remote.js",
+		"/Users/udd1641/Sites/node_modules/sinon/lib/sinon/util/fake_xml_http_request.js",
+		"/Users/udd1641/Sites/node_modules/sinon/lib/sinon.js",
+		"/Users/udd1641/Sites/node_modules/sinon/README.md",
+		"/Users/udd1641/Sites/node_modules/sinon/package.json",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/test/mocha.opts",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/test/remote.js",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/src/microajax.minified.js",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/tests/mocha.opts",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/tests/test.coffee",
+		"/Users/udd1641/Library/Application Support/Sublime Text 2/Packages/User/mocha.sublime-build",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/src/cacher.coffee",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/tests/remote.js",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/tests/localStorageMock.coffee",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/wvb.html",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/wva.html",
+		"/Users/udd1641/Downloads/yuitest_1.0.0b2/examples/basic-usage.htm",
+		"/Users/udd1641/Downloads/yuitest_1.0.0b2/examples/basic-usage-example.htm",
+		"/Users/udd1641/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/CoffeeScript.sublime-build",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/localStorage.js",
+		"/Users/udd1641/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/udd1641/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/tests/test.mocha",
+		"/Users/udd1641/Desktop/dynamicAction.js",
+		"/Users/udd1641/Sites/front-end-standards/content/namespacing.md",
+		"/Users/udd1641/Sites/front-end-standards/views/nav.jade",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/cacher.coffee",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/tests/mytest.coffee",
+		"/Users/udd1641/Sites/WSP_SMD040848_Bundle/helloWorld.coffee",
+		"/Users/udd1641/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/CoffeeScript.tmLanguage",
+		"/Users/udd1641/Sites/front-end-standards/views/layout.jade",
+		"/Users/udd1641/Sites/front-end-standards/views/footer.jade",
+		"/Users/udd1641/Sites/front-end-standards/views/index.jade",
+		"/Users/udd1641/Sites/html5-node-diagram/diagram.js",
+		"/Users/udd1641/Desktop/dynamicAction.js2",
+		"/Users/udd1641/Sites/codedeck/jstemplates/index.html",
+		"/Users/udd1641/Documents/js-templates",
+		"/Users/udd1641/Sites/codedeck/jstemplates/plates.js",
+		"/Users/udd1641/Sites/codedeck/jquery-1.7.min.js",
+		"/Users/udd1641/Sites/codedeck/jstemplates/mustache.js",
+		"/Users/udd1641/Documents/ec_javascript.jsp",
+		"/Users/udd1641/Documents/errorscript.rtf",
+		"/Users/udd1641/Documents/ErrorHandler.js",
+		"/Users/udd1641/Downloads/kdalertcomp.js",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/repeater/pairedinfo/PairedInfoRowBorder.html",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/repeater/pairedinfo/PairedInfoTableBorder.css",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/repeater/pairedinfo/PairedInfoRowBorder_HANDHELD.html",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/repeater/pairedinfo/PairedInfoTableBorder.html",
+		"/Users/udd1641/Sites/front-end-standards/routes/index.js",
+		"/Users/udd1641/Sites/textile/package.json",
+		"/Users/udd1641/Sites/front-end-standards/node_modules/markdown/package.json",
+		"/Users/udd1641/Sites/front-end-standards/routes/textileexample.md",
+		"/Users/udd1641/Sites/front-end-standards/content/home.md",
+		"/Users/udd1641/Sites/front-end-standards/app.js",
+		"/Users/udd1641/Sites/front-end-standards/content/js.md",
+		"/Volumes/c$/codebase/WSR_20120622/workspace/ent_wicket_usaa_templates/src/main/java/com/usaa/ent/pres/wicket/templates/footer/FooterPanel_MEMBERPUBLIC.html",
+		"/Volumes/c$/codebase/WSR_20120622/workspace/ent_wicket_usaa_templates/src/main/java/com/usaa/ent/pres/wicket/templates/footer/FooterPanel_MEMBERPRIVATE.html",
+		"/Volumes/c$/codebase/WSR_20120622/workspace/ent_wicket_usaa_templates/src/main/java/com/usaa/ent/pres/wicket/templates/footer/FooterPanel_MEMBER.css",
+		"/Volumes/c$/codebase/WSR_20120622/workspace/ent_wicket_usaa_templates/src/main/java/com/usaa/ent/pres/wicket/templates/footer/FooterPanel.java",
+		"/Volumes/c$/codebase/WSR_20120622/workspace/ent_wicket_usaa_templates/src/main/java/com/usaa/ent/pres/wicket/templates/footer/FooterUtil.java",
+		"/Users/udd1641/Sites/accessibility/day1.html",
+		"/Users/udd1641/Sites/accessibility/day4.html",
+		"/Users/udd1641/Downloads/password_strength_indicator.js",
+		"/Users/udd1641/Desktop/minimal-grids.css",
+		"/Users/udd1641/Sites/accessibility/index.html",
+		"/Users/udd1641/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/Users/udd1641/Sites/accessibility/day2.html",
+		"/Users/udd1641/Sites/accessibility/day3.html",
+		"/Users/udd1641/Library/Caches/TemporaryItems/Outlook Temp/Accessibility/cp_mbr_email_ehdc_reply_msg.jsp",
+		"/Users/udd1641/Sites/accessibility/assets/css/bootstrap.css",
+		"/Users/udd1641/Documents/aaa-css-code",
+		"/Users/udd1641/Sites/techx_yuiwicket/index.html",
+		"/Users/udd1641/Sites/node-examples/twitter/app-test.js",
+		"/Users/udd1641/Sites/node-examples/twitter/views/partials/stylesheet.ejs",
+		"/Users/udd1641/Sites/node-examples/twitter/views/partials/chirp.ejs",
+		"/Users/udd1641/Sites/node-examples/twitter/views/index.ejs",
+		"/Users/udd1641/Sites/node-examples/twitter/app.js",
+		"/Users/udd1641/Sites/node-examples/twitter/views/layout.ejs.html",
+		"/Users/udd1641/Sites/node-examples/twitter/views/index.html",
+		"/Users/udd1641/Sites/node-examples/twitter/views/layout.html",
+		"/Users/udd1641/Desktop/Accessibility Training",
+		"/Users/udd1641/Desktop/Credit Card Application   USAA.html",
+		"/Users/udd1641/Desktop/ec.js",
+		"/Volumes/logon/logon-form/index.html",
+		"/Users/udd1641/workspace/WSP_SMD038617_AW/workspace/enterprisecontent/webContent/javascript/ent/thirdparty/yui/yui3_3/anim/anim-min.js",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/www/enterprise/usaa/ent_wicket_usaa_components/config/Resources.ECL.xml",
+		"/Volumes/c$/www/enterprise/usaa/ent_wicket_usaa_components/config/Resources.ECL.xml",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/behavior/calendarpicker/CalendarPickerBehavior.java",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/behavior/calendarpicker/CalendarPickerBehavior.js",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/behavior/calendarpicker/UsaaCalendar.js",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/inf_wicket_usaa_refapp/src/main/java/com/usaa/ent/pres/wicket/refapp/pages/ecl/form/input/date/ExamplePageMemberDateTextField.html",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/inf_wicket_usaa_refapp/src/main/java/com/usaa/ent/pres/wicket/refapp/pages/ecl/form/input/date/ExamplePageMemberDateTextField.java",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/form/input/date/DateTextFieldPairedInfoRow.java",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/form/input/date/DateTextFieldPairedInfoRow_IOS.css",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/form/input/date/DateTextFieldPairedInfoRow_NATIVE.js",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/form/input/date/calendar-base-core.css",
+		"/Users/udd1641/Sites/calendar.html",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/form/input/date/DateTextFieldPairedInfoRow_IPHONE.css",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/form/input/date/DateOfBirthTextFieldPairedInfoRow.java",
+		"/Users/udd1641/Sites/YUICalTest/yui3_3/calendar/calendar.js",
+		"/Users/udd1641/Sites/YUICalTest/yui3_3/calendar-base/calendar-base.js",
+		"/Users/udd1641/Sites/YUICalTest/yui3_3/calendarnavigator/calendarnavigator.js",
+		"/Users/udd1641/Sites/impress.js/tree.html",
+		"/Users/udd1641/Sites/YUICalTest/34.html",
+		"/Users/udd1641/Sites/YUICalTest/<!DOCTYPE html>.html",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/www/enterprise/usaa/ent_wicket_usaa_components/config/Resources.Yui3_3.xml",
+		"/Users/udd1641/Sites/YUICalTest/yui3_3/datatype-date-math/datatype-date-math.js",
+		"/Users/udd1641/Sites/YUICalTest/yui3_3/calendar/calendar-base.js",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/www/enterprise/usaa/ent_wicket_usaa_components/config/Resources.Wicket.xml",
+		"/Users/udd1641/Sites/test.html",
+		"/Users/udd1641/Library/Caches/TemporaryItems/fbtmp/testwassys664lv.usaa.com/inet/ent_ret_accumulation/EntRetirementAccumulation/AUTOMATED/resources/com.usaa.enterprise.eap.behaviors.ClientSideInputLimiterBehavior/InputFieldLimiters.js",
+		"/Users/udd1641/Sites/AdaptiveWeb/Adaptive Web/enterprisecontent/webContent/javascript/acctsumm_right_nav.js",
+		"/Users/udd1641/Sites/impress.js/css/bubbles.css",
+		"/Volumes/c$/codebase/WSP_SMD038617_AW/workspace/ent_wicket_usaa_components/src/main/java/com/usaa/ent/pres/wicket/component/border/layout/flow/FlowLayoutBorder_ANDROID.css",
+		"/Users/udd1641/Sites/impress.js/css/impress-demo.css",
+		"/Users/udd1641/Sites/impress.js/js/codemirror2/lib/codemirror.css",
+		"/Users/udd1641/Sites/impress.js/js/codemirror2/lib/util/runnable.js",
+		"/Users/udd1641/Sites/impress.js/js/codemirror2/mode/htmlembedded/htmlembedded.js",
+		"/Users/udd1641/Documents/yui3-writeup.rtf",
+		"/Users/udd1641/Downloads/Arctext/index.html",
+		"/Users/udd1641/Downloads/Arctext/css/style.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"index.html",
+			"ec_javascript.jsp",
+			"",
+			"DateTextFieldPairedInfoRow_IPHONE.css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"status",
+			"xml",
+			"fakeXm",
+			"call",
+			"rs",
+			"cacher",
+			"nothing",
+			"cacher",
+			"Cacheryaa",
+			"JsLogging",
+			"JsErrorLogging",
+			"JSLogg",
+			"JSLoggingConfigHelper",
+			"ERDC",
+			"equals",
+			"<li class=\"slide\"></li",
+			">",
+			"jquery",
+			"id=\"code\" ",
+			"jquery",
+			"\">",
+			"baseUrlSB",
+			"cafutil",
+			"code",
+			"transi",
+			">.</",
+			"accessible",
+			"<",
+			"      ",
+			"text-align: center",
+			"·         ",
+			"BaseJSFileNames",
+			"EnterpriseJavaScriptFileName",
+			");",
+			"statmcstg",
+			"rwb.usaa.com",
+			"rwb.",
+			"'/javascript",
+			"\"/javascript",
+			"https://rwb.usaa.com/inet/ent_utils/McLogon?key=tl_container",
+			"statmcstg",
+			".js",
+			"statmcstg",
+			"s-rwa",
+			"s-rwb",
+			".js",
+			"calendarContainer",
+			"PairedInfoRowBorder_css",
+			"_selectedDate",
+			"calendar_js",
+			"IsLookAndFeeliOsApp",
+			"DateTextFieldPairedInfoRow_js",
+			"iphone",
+			"			<",
+			"_IPHONE",
+			"//",
+			"calend",
+			"calender",
+			"calenderContainer",
+			"				});",
+			"cssgrids",
+			"\" />",
+			"datatype-da",
+			"pairedInfo-liner",
+			"InputFieldLimiters_js",
+			"addMonths",
+			"addMonths :",
+			"addMonths",
+			"getClassName",
+			">",
+			"background:#fff;",
+			"background",
+			"code",
+			"yui-example-3",
+			"yui-example-2-1",
+			"yui-example-1-4",
+			"yui-example-1-3",
+			"step code",
+			":",
+			"getElementFromU",
+			"impress",
+			"goto",
+			"getElementFromUrl",
+			"200px",
+			"yui-review",
+			"click",
+			"get",
+			"javascript",
+			"                ",
+			"()",
+			"(el",
+			"el",
+			"group",
+			"active",
+			"data",
+			");",
+			"active",
+			"step-",
+			"10",
+			">",
+			"<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@rs",
+			"rs",
+			"cacher",
+			"",
+			"baseJsUrlSB",
+			"baseUrlSB",
+			"",
+			"content",
+			"www..usaa.com",
+			"www.",
+			"https://www.usaa.com/inet/ent_utils/McLogon?key=tl_container",
+			"content",
+			"s",
+			"pi-liner",
+			"step step-code"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Round.coffee",
+					"settings":
+					{
+						"buffer_size": 820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Kit.coffee",
+					"settings":
+					{
+						"buffer_size": 277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "test/kit.coffee",
+					"settings":
+					{
+						"buffer_size": 853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test/round.coffee",
+					"settings":
+					{
+						"buffer_size": 861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.563989962359,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"my",
+				"/Users/udd1641/Sites/WSP_SMD040848_Bundle/tests/mytest.coffee"
+			],
+			[
+				"",
+				"/Users/udd1641/Sites/WSP_SMD040848_Bundle/cacher.coffee"
+			],
+			[
+				"hell",
+				"/Users/udd1641/Sites/WSP_SMD040848_Bundle/helloWorld.coffee"
+			],
+			[
+				"hello",
+				"/Users/udd1641/Sites/WSP_SMD040848_Bundle/helloWorld.coffee"
+			],
+			[
+				"buil",
+				"/Users/udd1641/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/CoffeeScript.sublime-build"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/udd1641/Sites/automate-js-logger.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
