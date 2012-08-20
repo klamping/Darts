@@ -17,6 +17,12 @@ describe '#Kit', ->
 	it 'should have a value', ->
 		@kit1.get('value').should.equal 15
 		@kit2.get('value').should.equal 16
+	it 'should have a hit count of zero if no hit count passed in', ->
+		kit3 = new Kit({
+			value: 0
+		})
+		kit3.get('hits').should.equal 0
+		kit3.get('score').should.equal 0
 	it 'should have the number of hits', ->
 		@kit1.get('hits').should.equal 2
 		@kit2.get('hits').should.equal 0
@@ -26,3 +32,4 @@ describe '#Kit', ->
 	it 'should update the score after a hit count changes', ->
 		@kit1.set 'hits', 4
 		@kit1.get('score').should.equal 60
+

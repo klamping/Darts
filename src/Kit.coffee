@@ -1,10 +1,14 @@
 Backbone = require 'backbone'
 
 class Kit extends Backbone.Model
+	defaults:
+		'hits': 0
 	initialize: () ->
-		@set 'score', @get('hits') * @get('value')
+		@set 'score', @getScore()
 		@on 'change:hits', ->
-			@set 'score', @get('hits') * @get('value')
+			@set 'score', @getScore()
+	getScore: () ->
+		@get('hits') * @get('value')
 
 root = exports ? window 
 root.Kit = Kit  
