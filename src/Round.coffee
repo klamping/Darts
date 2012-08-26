@@ -14,8 +14,6 @@ class Round extends Backbone.Model
 		for kit in @get 'kits'
 			@addKit @get('values')[@numKits], kit
 		@set 'score', @getScore()
-		@on 'change:kits', ->
-			@set 'score', @getScore()
 	addKit: (value, hits) ->
 		if (@numKits < @get('values').length)
 			kit = new Kit {'value': value, 'hits': hits}
@@ -23,18 +21,16 @@ class Round extends Backbone.Model
 			@numKits++
 		else
 			throw new Error 'Cannot add another kit'
-
 	setKitHits: (value, hits) ->
-		console.log @kits.models
+		@kits.each (kit) ->
+			if kit.get('value') == value
+				kit.set 'hits', hits
+		@set 'score', @getScore()
 	getScore: () ->
-		#console.log @kits
-		#total = for kit in @get 'kits'
-			#console.log kit
-			#kit.get('score')
-		#console.log total
-		#total = total.reduce (a, b) ->
-		 #   a + b
 		total = 0
+		@kits.each (kit) ->
+			total += kit.get('score')
+		total
 
 root = exports ? window 
 root.Round = Round

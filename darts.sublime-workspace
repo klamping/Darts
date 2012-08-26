@@ -15,39 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "test/kit.coffee",
-			"settings":
-			{
-				"buffer_size": 853,
-				"line_ending": "Unix",
-				"name": "describe 'kit', ->"
-			}
-		},
-		{
-			"file": "src/Kit.coffee",
-			"settings":
-			{
-				"buffer_size": 277,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test/round.coffee",
-			"settings":
-			{
-				"buffer_size": 692,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/Round.coffee",
-			"settings":
-			{
-				"buffer_size": 899,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -77,6 +44,10 @@
 	},
 	"file_history":
 	[
+		"/Users/klamping/Sites/Darts/src/Round.coffee",
+		"/Users/klamping/Sites/Darts/test/round.coffee",
+		"/Users/klamping/Sites/Darts/src/Kit.coffee",
+		"/Users/klamping/Sites/Darts/test/kit.coffee",
 		"/Users/klamping/Sites/kevinlamping.com/views/index.jade",
 		"/Users/klamping/Sites/kevinlamping.com/views/layout.jade",
 		"/Users/klamping/Sites/Darts/test/mocha.opts",
@@ -159,117 +130,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "test/kit.coffee",
-					"settings":
-					{
-						"buffer_size": 853,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								74,
-								45
-							]
-						],
-						"settings":
-						{
-							"auto_name": "describe 'kit', ->",
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/Kit.coffee",
-					"settings":
-					{
-						"buffer_size": 277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								105,
-								105
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "test/round.coffee",
-					"settings":
-					{
-						"buffer_size": 692,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								187,
-								206
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/Round.coffee",
-					"settings":
-					{
-						"buffer_size": 899,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								407,
-								407
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

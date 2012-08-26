@@ -15,13 +15,20 @@ describe '#Round', ->
 		@r2 = new Round
 			kits: r2Kits,
 			round: 2
-	it 'should have a round number', ->
+	it 'should have a throwing round number', ->
 		@r1.get('round').should.equal 1
 		@r2.get('round').should.equal 2
 	it 'should have a total score', ->
 		@r1.get('score').should.equal 430
 		@r2.get('score').should.equal 85
 	it 'should be able to update a single kit', ->
-		@r1.setKitHits(15, 0)
-	it 'should update the score when a kit is updated', ->
-		#console.log @r1.set({value: 15, hits: 3})
+		@r1.setKitHits(15, 1)
+		@r1.get('score').should.equal 445
+		@r2.setKitHits(25, 2)
+		@r2.get('score').should.equal 135
+	it 'should not allow too many kits to be added', ->
+		addTooMany = ->
+			r = new Round
+				kits: [1,2,3,4,5,6,7,8,9],
+				round: 2
+		addTooMany.should.throw(Error)
