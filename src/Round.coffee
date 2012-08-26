@@ -31,6 +31,8 @@ class Round extends Backbone.Model
 		@kits.each (kit) ->
 			total += kit.get('score')
 		total
+	getThrowsLeft: ->
+		@get('values').length - @numKits
 
 root = exports ? window 
 root.Round = Round

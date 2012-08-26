@@ -8,6 +8,7 @@ describe '#Round', ->
 	before ->
 		r1Kits = [0, 1, 2, 3, 4, 5, 6]
 		r2Kits = [1, 1, 1, 1, 1, 0, 0]
+		r3Kits = [1, 1, 1, 0]
 			
 		@r1 = new Round
 			kits: r1Kits, 
@@ -15,6 +16,9 @@ describe '#Round', ->
 		@r2 = new Round
 			kits: r2Kits,
 			round: 2
+		@r3 = new Round
+			kits: r3Kits,
+			round: 3
 	it 'should have a throwing round number', ->
 		@r1.get('round').should.equal 1
 		@r2.get('round').should.equal 2
@@ -32,3 +36,8 @@ describe '#Round', ->
 				kits: [1,2,3,4,5,6,7,8,9],
 				round: 2
 		addTooMany.should.throw(Error)
+	it 'should count the number of throws left', ->
+		@r1.getThrowsLeft().should.equal 0
+		@r2.getThrowsLeft().should.equal 0
+		@r3.getThrowsLeft().should.equal 3
+		
