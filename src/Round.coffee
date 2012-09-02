@@ -1,6 +1,6 @@
-Backbone = require 'backbone'
-
-{Kit} = require '../src/Kit'
+if (!Meteor?) 
+	Backbone = require 'backbone'
+	{Kit} = require '../src/Kit'
 
 class KitList extends Backbone.Collection
     model: Kit
@@ -39,5 +39,6 @@ class Round extends Backbone.Model
 	getThrowsLeft: ->
 		@get('values').length - @kits.length
 
-root = exports ? window 
-root.Round = Round
+
+if (exports?)
+	exports.Round = Round

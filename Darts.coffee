@@ -1,4 +1,5 @@
-Matches = new Meteor.Collection("matches");
+Matches = new Meteor.Collection "matches"
+console.log 'match'
 
 if Meteor.is_server
   Meteor.publish "matches", (playerId) ->
