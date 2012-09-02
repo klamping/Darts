@@ -8,7 +8,7 @@ class Kit extends Backbone.Model
 		@on 'change:hits', ->
 			@set 'score', @getScore()
 	getScore: () ->
-		@get('hits') * @get('value')
+		@get('hits') * @id
 
 root = exports ? window 
 root.Kit = Kit  

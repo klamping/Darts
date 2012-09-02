@@ -1,25 +1,25 @@
 chai = require 'chai'
 should = chai.should()
 
-{Kit} = require '../lib/Kit'
+{Kit} = require '../src/Kit'
 
 describe '#Kit', ->
 	before ->
 		@kit1 = new Kit({
-			value: 15, 
+			id: 15, 
 			hits: 2
 		})
 		@kit2 = new Kit({
-			value: 16, 
+			id: 16, 
 			hits: 0
 		})
 		true
 	it 'should have a value', ->
-		@kit1.get('value').should.equal 15
-		@kit2.get('value').should.equal 16
+		@kit1.id.should.equal 15
+		@kit2.id.should.equal 16
 	it 'should have a hit count of zero if no hit count passed in', ->
 		kit3 = new Kit({
-			value: 0
+			id: 0
 		})
 		kit3.get('hits').should.equal 0
 		kit3.get('score').should.equal 0

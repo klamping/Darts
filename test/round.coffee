@@ -1,8 +1,8 @@
 chai = require 'chai'
 should = chai.should()
 
-{Kit} = require '../lib/Kit'
-{Round} = require '../lib/Round'
+{Kit} = require '../src/Kit'
+{Round} = require '../src/Round'
 
 describe '#Round', ->
 	before ->
@@ -22,14 +22,18 @@ describe '#Round', ->
 	it 'should have a throwing round number', ->
 		@r1.get('round').should.equal 1
 		@r2.get('round').should.equal 2
+		@r3.get('round').should.equal 3
 	it 'should have a total score', ->
 		@r1.get('score').should.equal 430
 		@r2.get('score').should.equal 85
-	it 'should be able to update a single kit', ->
-		@r1.setKitHits(15, 1)
+		@r3.get('score').should.equal 48
+	it 'should update the total score when a kit is changed', ->
+		@r1.kits.get(15).set('hits', 1)
 		@r1.get('score').should.equal 445
-		@r2.setKitHits(25, 2)
+		@r2.kits.get(25).set('hits', 2)
 		@r2.get('score').should.equal 135
+		@r3.kits.add new Kit {id: 19, hits: 1}
+		@r3.get('score').should.equal 67
 	it 'should not allow too many kits to be added', ->
 		addTooMany = ->
 			r = new Round
@@ -39,5 +43,4 @@ describe '#Round', ->
 	it 'should count the number of throws left', ->
 		@r1.getThrowsLeft().should.equal 0
 		@r2.getThrowsLeft().should.equal 0
-		@r3.getThrowsLeft().should.equal 3
-		
+		@r3.getThrowsLeft().should.equal 2

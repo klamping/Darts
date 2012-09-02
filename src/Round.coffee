@@ -1,6 +1,6 @@
 Backbone = require 'backbone'
 
-{Kit} = require '../lib/Kit'
+{Kit} = require '../src/Kit'
 
 class KitList extends Backbone.Collection
     model: Kit
@@ -9,22 +9,27 @@ class Round extends Backbone.Model
 	defaults:
 		values : [15, 16, 17, 18, 19, 20, 25]
 	initialize: () ->
+		that = @
 		@kits = new KitList
-		@numKits = 0
 		for kit in @get 'kits'
-			@addKit @get('values')[@numKits], kit
+			@addKit @get('values')[@kits.length], kit
 		@set 'score', @getScore()
+		@kits.on('all', ->
+			@set 'score', @getScore()
+		, @)
 	addKit: (value, hits) ->
-		if (@numKits < @get('values').length)
-			kit = new Kit {'value': value, 'hits': hits}
+		if (@kits.length < @get('values').length)
+			kit = new Kit {'id': value, 'hits': hits}
 			@kits.add kit
-			@numKits++
+			return kit
 		else
-			throw new Error 'Cannot add another kit'
+			throw new Error 'Too many kits added, cannot add another kit'
 	setKitHits: (value, hits) ->
-		@kits.each (kit) ->
-			if kit.get('value') == value
-				kit.set 'hits', hits
+		kit = @kits.get value
+		if kit
+			kit.set 'hits', hits
+		else 
+			kit = @addKit value, hits
 		@set 'score', @getScore()
 	getScore: () ->
 		total = 0
@@ -32,7 +37,7 @@ class Round extends Backbone.Model
 			total += kit.get('score')
 		total
 	getThrowsLeft: ->
-		@get('values').length - @numKits
+		@get('values').length - @kits.length
 
 root = exports ? window 
 root.Round = Round
