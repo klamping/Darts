@@ -1,6 +1,5 @@
 // if the database is empty on server start, create some sample data.
 Meteor.startup(function () {
-  console.log(Matches.findOne())
   if (Matches.find().count() === 0) {
     var data = [
       {
@@ -26,8 +25,7 @@ Meteor.startup(function () {
     ];
 
     for (i = 0; i < data.length; i++) {
-      console.log(data[i])
-      match_id = Matches.insert(data[i]);
+      match_id = Matches.insert(data[i].games);
     }
   }
 });

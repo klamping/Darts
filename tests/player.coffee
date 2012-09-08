@@ -1,6 +1,7 @@
 chai = require 'chai'
 should = chai.should()
 
+Backbone = require 'backbone'
 {Game} = require '../src/Game'
 {Match} = require '../src/Match'
 {Player} = require '../src/Player'
@@ -13,7 +14,6 @@ describe '#Player', ->
 		@p2 = new Player
 			id: 2,
 			name: 'Paul'
-
 
 		g1Rounds = [
 			[0, 1, 2, 3, 4, 5, 6],

@@ -1,7 +1,8 @@
-if (!Meteor?) 
-	Backbone = require 'backbone'
-	{Kit} = require '../src/Kit'
-	{Round} = require '../src/Round'
+root = exports ? this
+
+if (!Meteor?)
+    Backbone = require 'backbone'
+    {Round} = require './Round'
 
 class RoundList extends Backbone.Collection
     model: Round
@@ -31,5 +32,4 @@ class Game extends Backbone.Model
 			return false
 		true
 			
-if (exports?)
-	exports.Game = Game
+root.Game = Game

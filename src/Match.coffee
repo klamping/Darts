@@ -1,6 +1,8 @@
-if (!Meteor?) 
-	Backbone = require 'backbone'
-	{Game} = require '../src/Game'
+root = exports ? this
+
+if (!Meteor?)
+    Backbone = require 'backbone'
+    {Game} = require './Game'
 
 class GameList extends Backbone.Collection
     model: Game,
@@ -23,5 +25,4 @@ class Match extends Backbone.Model
 			record = @get('g1').get('player').get('record')###
 
 
-if (exports?)
-	exports.Match = Match
+root.Match = Match

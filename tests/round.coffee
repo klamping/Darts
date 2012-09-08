@@ -1,7 +1,16 @@
 chai = require 'chai'
 should = chai.should()
 
-{Kit} = require '../src/Kit'
+Backbone = require 'backbone'
+SandboxedModule = require('../../node-sandboxed-module/lib/sandboxed_module')
+{Kit} = SandboxedModule.require('../src/Kit', {
+  requires: {'backbone': Backbone}
+});
+
+{Round} = SandboxedModule.require('../src/Round', {
+  requires: {'backbone': Backbone,}
+});
+
 {Round} = require '../src/Round'
 
 describe '#Round', ->

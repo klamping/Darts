@@ -1,6 +1,7 @@
 chai = require 'chai'
 should = chai.should()
 
+Backbone = exports.Backbone = require 'backbone'
 {Kit} = require '../src/Kit'
 {Round} = require '../src/Round'
 {Game} = require '../src/Game'

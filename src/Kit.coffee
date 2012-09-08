@@ -1,5 +1,7 @@
-if (!Meteor?) 
-	Backbone = require 'backbone'
+root = exports ? this
+
+if (!Meteor?)
+    Backbone = require 'backbone' 
 
 class Kit extends Backbone.Model
 	defaults:
@@ -11,6 +13,4 @@ class Kit extends Backbone.Model
 	getScore: () ->
 		@get('hits') * @id
 
-
-if (exports?)
-	exports.Kit = Kit  
+root.Kit = Kit  
