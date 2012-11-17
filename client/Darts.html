@@ -1,0 +1,21 @@
+<head>
+  <title>Darts</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <h1>Match History</h1>
+  {{#each players}}
+    <div class="player">
+        {{name}}
+    </div>
+  {{/each}}
+  {{#each matches}}
+  	<div class="match">
+  		{{text}}
+  	</div>
+  {{/each}}
+</template>
